@@ -1,0 +1,7 @@
+/*
+    CSS Reset
+    Author : Wang zhi
+    Date : 2016-08-15
+    Veision : 1.0.0
+*/
+body,div,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,code,form,fieldset,legend,button,textarea,input,table,tbody,tfoot,thead,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video{margin:0;padding:0;outline:0;background:transparent}article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block}body,button,input,select,textarea{font:14px/1.5 "微软雅黑",Arial,Helvetica,sans-serif}h1,h2,h3,h4,h5,h6,button,input,select,textarea{font-size:100%}address,cite,dfn,em,var{font-style:normal}code,kbd,pre,samp{font-family:courier new,courier,monospace}small{font-size:12px}ul,ol,li{list-style:none}img{border:0}a{text-decoration:none;outline:thin none}table{border-collapse:collapse;border-spacing:0}.clear{clear:both}.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}.fl{float:left}.fr{float:right}

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@import "reset.min.css";
+@import "header.css";
+@import "footerCopy.css";
+@import "fixBox.css";
+@import "insidePagePublic.css";
+/*内页签证样式 start*/
+.webQz {
+    width: 950px;
+    margin: 0 auto 10px;
+    padding: 10px 0 45px;
+}
+.webQz dl {
+    width: 450px;
+    float: left;
+    border: 1px dotted #666666;
+    padding: 15px 5px;
+    margin: 15px 6px;
+}
+.webQz dl dt {
+    width: 170px;
+    height: 113px;
+    float: left;
+    padding: 4px;
+    border: 1px solid #ddd;
+}
+.webQz dl dd {
+    width: 260px;
+    float: right;
+    font-size: 14px;
+    line-height: 25px;
+    color: #666;
+}
+.webQz dl dd.title {
+    font-size: 16px;
+    color:#e10076;
+    line-height: 45px;
+}
+.webQz dl dd span {
+    margin: 0 10px 0 0;
+}
+.webQz dl dd font {
+    color:#e10076;
+}
+/*内页签证样式 end*/
+
+/*内页签证详细内容样式 start*/
+#webQzDetails {
+    width: 950px;
+    margin: 0 auto;
+}
+/*内页签证详细内容样式 end*/

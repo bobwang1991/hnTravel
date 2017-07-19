@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/*网站底部 start*/
+#footer {
+    width: 100%;
+    height: 141px;
+    background: black;
+}
+#footer .footer-con {
+    width: 1000px;
+    height: 141px;
+    margin: 0 auto;
+}
+#footer .footer-con .footer-conL {
+    width: 260px;
+    height: 126px;
+    padding: 15px 0 0;
+}
+#footer .footer-con .footer-conL .paddingT{
+    padding-top: 15px;
+}
+#footer .footer-con .footer-conR{
+    width: 550px;
+    height: 126px;
+    padding: 15px 0 0;
+}
+#footer .footer-con .footer-conR dl{
+    float: left;
+    margin-left: 77px;
+    text-align: right;
+}
+#footer .footer-con .footer-conR dl dt{
+    color:white;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 35px;
+}
+#footer .footer-con .footer-conR dl dd {
+    font-size: 12px;
+    line-height: 20px;
+}
+#footer .footer-con .footer-conR dl dd a{
+    color:white;
+}
+#footer .footer-con .footer-conR dl dd a:hover{
+    text-decoration: underline;
+}
+/*网站底部 end*/
+
+/*网站的版权信息 start*/
+#copy {
+    width: 100%;
+    background: url("../images/home/footerbg.jpg");
+}
+#copy .copy-con {
+    width: 1000px;
+    margin: 0 auto;
+    color:white;
+    text-align: center;
+    font-size: 12px;
+    line-height: 35px;
+    padding: 15px 0 80px;
+}
+#copy .copy-con a{
+    color:white;
+}
+/*网站的版权信息 end*/

@@ -1,0 +1,483 @@
+@charset "UTF-8";
+@import "reset.min.css";
+@import "header.css";
+@import "footerCopy.css";
+@import "fixBox.css";
+
+/*广告 start*/
+#Adv{
+    width: 100%;
+    height: 421px;
+    position: relative;/*相对定位*/
+}
+#Adv .ImgList {
+    width: 100%;
+    height: 421px;
+    position: absolute; /*绝对定位*/
+    top: 0;
+    left: 0;
+}
+#Adv ul.button{
+    position: absolute;
+    bottom: 50px;
+    left:50%;
+    margin-left: -124px;
+    display: inline-block;
+}
+#Adv ul.button li {
+    width: 50px;
+    height: 10px;
+    background: black;
+    border:1px dotted white;
+    float: left;
+    margin: 0 5px;
+    cursor: pointer;
+}
+#Adv ul.button li.hover{
+    background: white;
+}
+/*广告 end*/
+
+/*第一部分内容 start*/
+#part1{
+    width: 1000px;
+    margin: 35px auto;
+}
+#part1 #part1_L {
+    width: 339px;
+    height: 440px;
+    padding: 6px;
+    border:1px dashed #e20076;
+}
+#part1 #part1_R {
+    width: 560px;
+    height: 442px;
+    background:url("../images/home/vl.jpg") no-repeat,url("../images/home/vr.jpg") no-repeat right top;
+    padding: 0 30px;
+}
+#part1 #part1_R p.title{
+    height: 90px;
+    background: url("../images/home/lxtjbg.jpg") no-repeat right bottom;
+    border-bottom: 1px dashed #c9c9c9;
+}
+/*选项卡按钮 start*/
+#part1 #part1_R ul.sel-but {
+    border-bottom: 1px solid #eee;
+    height: 32px;
+}
+#part1 #part1_R ul.sel-but li {
+    float: left;
+    width: 84px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    background: url("../images/home/lxtjcdbg.jpg") no-repeat right bottom;
+    cursor: pointer;
+}
+#part1 #part1_R ul.sel-but li.hover{
+    background: url("../images/home/lxtjcdxg.jpg") no-repeat right bottom;
+}
+/*选项卡按钮 end*/
+/*内容区 start*/
+#part1 #part1_R .select-con{
+    height: 300px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#part1 #part1_R .select-con .select-content {
+    height: 300px;
+}
+/*内容区图片列表项*/
+#part1_R .select-con .select-content ul.sel-imgList li {
+    float: left;
+    width: 126px;
+    height: 124px;
+    margin: 0 6px 0 7px;
+    cursor: pointer;
+    position: relative;
+}
+#part1_R .select-con .select-content ul.sel-imgList li p {
+    height: 0;
+    background: #DB2453;/*兼容IE8-*/
+    background: rgba(187, 14, 115, .7);
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+/*新闻列表*/
+ul.introNews{
+    padding-top: 20px;
+}
+ul.introNews li {
+    font-size: 14px;
+    line-height: 35px;
+    text-indent: 20px;
+    background: url("../images/home/li_dian.png") no-repeat 6px center;
+    text-align: left;
+}
+ul.introNews li a{
+    color: black;
+}
+ul.introNews li a:hover{
+    color:#e20076;
+}
+ul.introNews li span{
+    float: right;
+    color:#e20076;
+    font-weight: bold;
+}
+/*内容区 end*/
+/*内容区广告轮播 start*/
+#part1_L .part-imgCon{
+    width: 339px;
+    height: 376px;
+    position: relative;
+    overflow: hidden;
+}
+#part1_L .part-imgCon .part-scrollCon {
+    width: 1000%;
+    height: 376px;
+    position: absolute;
+    left: 0;
+}
+#part1_L .part-imgCon .part-scrollCon img{
+    float: left;
+}
+/*滚动文字样式*/
+#part1_L ul.part-scrollTxt {
+    height: 35px;
+    overflow: hidden;
+}
+#part1_L ul.part-scrollTxt li{
+    font-size: 14px;
+    line-height: 30px;
+    text-indent: 5px;
+}
+/*滚动的按钮*/
+#part1_L ul.part-scrollBtn li {
+    float: left;
+    width: 40px;
+    height: 8px;
+    background: #00a9c2;
+    margin: 0 5px;
+    cursor: pointer;
+}
+#part1_L ul.part-scrollBtn li.hover{
+    background: #e20076;
+}
+/*内容区广告轮播 end*/
+/*第一部分内容 end*/
+
+/*第二部分内容 start*/
+#part2 {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    background:url("../images/home/vl.jpg") no-repeat,url("../images/home/vr.jpg") no-repeat right top;
+}
+#part2 img.bannerImg{
+    margin-top: 15px;
+}
+/*第二部分内容 end*/
+
+/*第三部分内容 start*/
+.part3Comm {
+    width: 1000px;
+    height: 500px;
+    margin: 35px auto 0;
+    background:url("../images/home/vl.jpg") no-repeat,url("../images/home/vr.jpg") no-repeat right top;
+    text-align: center;
+}
+.part3Comm p.title {
+    width: 900px;
+    height: 30px;
+    margin: 0 auto;
+    background: url("../images/home/cjxlejcdbg.jpg") no-repeat;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 29px 0 55px;
+}
+.part3Comm p.title a.sel-a {
+    text-decoration: none;
+    width: 70px;
+    height: 20px;
+    position: relative;
+    text-indent: 0;
+    line-height: 20px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    color: black;
+}
+.part3Comm p.title a.hover{
+    color:white;
+    background: #e20076;
+    border-radius: 15px;
+}
+.part3Comm p.title a img{
+    position: absolute;
+    top: 24px;
+    left: 30px;
+    display: none;
+}
+.part3Comm p.title a.hover img{
+    display: block;
+}
+.part3Comm p.title a.more {
+    float: right;
+    text-decoration: none;
+    width: 70px;
+    height: 20px;
+    position: relative;
+    text-indent: 0;
+    line-height: 20px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 100;
+    color: black;
+}
+.part3Comm p.title a.more:hover{
+    color:#e10076;
+    background: none;
+}
+.part3Comm .part3Con {
+    width: 940px;
+    margin: 20px auto 0;
+}
+.part3ConL{
+    width: 325px;
+    height: 326px;
+    background: url("../images/home/xxpicbg.jpg") no-repeat;
+    padding: 6px 0 0 7px;
+}
+.part3ConL img{
+    display: none;
+}
+.part3ConL img:first-child {
+    display: block;
+}
+.part3ConR{
+    width: 580px;
+    height: 334px;
+}
+.part3ConR .part3ConR-comm {
+    width: 580px;
+    height: 334px;
+    display: none;
+}
+.part3ConR .part3ConR-comm:first-child{
+    display: block;
+}
+.part3ConR .part3ConR-comm .part3ConR-intro{
+    border:1px solid #eee;
+    padding: 15px 15px 10px;
+}
+.part3ConR .part3ConR-comm .part3ConR-intro h3 {
+    text-align: left;
+    font-size: 18px;
+}
+.part3ConR .part3ConR-comm .part3ConR-intro h3 a{
+    color: black;
+}
+.part3ConR .part3ConR-comm .part3ConR-intro h3 a:hover{
+    color:#d81480;
+}
+.part3ConR .part3ConR-comm .part3ConR-intro p{
+    text-align: left;
+    font-size: 14px;
+    color:#666;
+    line-height: 22px;
+    padding: 10px 0 0;
+}
+/*第三部分内容 end*/
+
+/*第五部分内容 start*/
+#part5 {
+    width: 1000px;
+    margin: 0 auto;
+    background: url("../images/home/vl.jpg") no-repeat,url("../images/home/vr.jpg") no-repeat right top;
+}
+#part5 ul.part5-selBut{
+    width: 970px;
+    background: url("../images/home/part5_ulbg.jpg");
+    margin: 10px auto;
+    border: 1px solid #ddd;
+}
+#part5 ul.part5-selBut li {
+    float: left;
+    width: 170px;
+    height: 39px;
+    line-height: 37px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color:black;
+    border-right:1px solid #ddd;
+    cursor: pointer;
+}
+#part5 ul.part5-selBut li.hover {
+    background: #e20076;
+    color:white;
+}
+#part5 .part5-Con{
+    width: 940px;
+    height: 380px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#part5 .part5-Con .part5-content {
+    width: 940px;
+    height: 380px;
+    color: black;
+}
+/*签证服务 start*/
+.part5-Con .part5-content dl{
+    width: 210px;
+    height: 82px;
+    float: left;
+    margin: 20px 40px;
+}
+.part5-Con .part5-content dl dt{
+    float: left;
+}
+.part5-Con .part5-content dl dt img{
+    border:1px solid #eeeeee;
+}
+.part5-Con .part5-content dl dt a:hover > img{
+    border:1px solid #e20076;
+}
+.part5-Con .part5-content dl dd {
+    width: 75px;
+    float: right;
+    color: #e20076;
+    font-weight: bold;
+    line-height: 25px;
+    font-size: 12px;
+    text-indent: 5px;
+}
+.part5-Con .part5-content dl dd.ti{
+    font-weight: 100;
+    color:black;
+}
+.part5-Con .part5-content dl dd a {
+    color: #e20076;
+}
+/*签证服务 end*/
+/*公司新闻 start*/
+#part5 ul.introNews li span {
+    float: right;
+    color: #666666;
+    font-weight: 100;
+}
+/*公司新闻 end*/
+/*我的品牌 start*/
+.part5-content .part5-box1{
+    width: 329px;
+    height: 383px;
+    margin-right: 5px;
+}
+.part5-content .part5-box1 .top {
+    width: 329px;
+    height: 245px;
+    margin-bottom: 5px;
+}
+.part5-content .part5-box1 .bottom{
+    width: 329px;
+    height: 138px;
+}
+.part5-content .part5-box1 .bottom .bottom-1:first-child{
+    margin-right: 5px;
+}
+.part5-content .part5-box1 .bottom .bottom-1{
+    width: 162px;
+    height: 138px;
+}
+.part5-content .part5-box2{
+    width: 382px;
+    height: 383px;
+    margin-right: 5px;
+}
+.part5-content .part5-box2 .part5-box2-b1 {
+    width: 189px;
+    height: 122px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.part5-content .part5-box2 .part5-box2-b2 {
+    width: 187px;
+    height: 122px;
+    margin-bottom: 5px;
+}
+.part5-content .part5-box2 .part5-box2-b3 {
+    width: 377px;
+    height: 122px;
+    margin-bottom: 5px;
+}
+.part5-content .part5-box2 .part5-box2-b4{
+    width: 188px;
+    height: 138px;
+}
+.part5-content .part5-box3{
+    width: 217px;
+    height: 383px;
+}
+.part5-content .part5-box3 .part5-box3-b1 {
+    width: 217px;
+    height: 239px;
+    margin-bottom: 5px;
+}
+.part5-content .part5-box3 .part5-box3-b2 {
+    width: 217px;
+    height: 144px;
+}
+.part5Comm{
+    position: relative;
+}
+.part5Comm p {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color:white;
+    font-size: 34px;
+    line-height: 245px;
+    display: none;
+}
+.part5-content .part5-box1 .bottom-1 p{
+    line-height: 138px;
+    font-size: 24px;
+}
+.part5-content .part5-box2 .part5-box2-b1 p{
+    line-height: 122px;
+}
+.part5-content .part5-box2 .part5-box2-b2 p{
+    line-height: 122px;
+}
+.part5-content .part5-box2 .part5-box2-b3 p{
+    line-height: 138px;
+}
+.part5-content .part5-box2 .part5-box2-b4 p{
+    line-height: 138px;
+    font-size: 24px;
+}
+.part5-content .part5-box3 .part5-box3-b1 p{
+    line-height: 239px;
+}
+.part5-content .part5-box3 .part5-box3-b2 p{
+    line-height: 144px;
+}
+/*我的品牌 end*/
+/*合作伙伴 start*/
+
+/*合作伙伴 end*/
+/*第五部分内容 end*/

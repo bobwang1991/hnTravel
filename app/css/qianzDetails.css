@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@import "qianz.css";
+/*内页签证详细内容样式 start*/
+#webQzDetails {
+    width: 950px;
+    margin: 0 auto;
+}
+.webQz {
+    padding: 0;
+}
+.webQz dl {
+    border: none;
+    width: 100%;
+    float: none;
+}
+.webQz dl dt {
+    width: 250px;
+    height: 166px;
+}
+.webQz dl dd {
+    width: 650px;
+}
+.webQz dl dd.title {
+    line-height: 30px;
+}
+.webQz dl dd.btn {
+    padding: 5px 0 0;
+}
+/*签证栏目 start*/
+#webQzDetails .webQzNav {
+    border-top: 1px dashed #e10076;
+    border-bottom: 1px dashed #e10076;
+}
+#webQzDetails .webQzNav font {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    background: #e10076;
+    color: white;
+    line-height: 55px;
+}
+#webQzDetails .webQzNav span {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+#webQzDetails .webQzNav span.hover {
+    color: #fff;
+    background: #666;
+}
+/*签证栏目 end*/
+/*滚动区的内容 start*/
+.webQzScroll {
+    width: 950px;
+    height: 500px;
+    margin: 25px 0;
+    border: 1px solid #000000;
+    overflow-y: hidden;/*竖直方向内容超过其高度，就出现滚动条*/
+}
+.webQzScroll .webQzScrollCon {
+    height: 500px;
+}
+.webQzScroll .webQzScrollCon:nth-child(1) {
+    background: green;
+}
+.webQzScroll .webQzScrollCon:nth-child(2) {
+    background: blue;
+}
+.webQzScroll .webQzScrollCon:nth-child(3) {
+    background: olive;
+}
+.webQzScroll .webQzScrollCon:nth-child(4) {
+    background: mediumorchid;
+}
+.webQzScroll .webQzScrollCon:nth-child(5) {
+    background: lightpink;
+}
+/*滚动区的内容 end*/
+/*信息提示 start*/
+.webQzDetailInfo {
+    padding: 0 0 35px;
+}
+.webQzDetailInfo span {
+    display: block;
+    color: #ffffff;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #e10076;
+}
+.webQzDetailInfo p {
+    line-height: 35px;
+}
+/*信息提示 end*/
+/*内页签证详细内容样式 end*/

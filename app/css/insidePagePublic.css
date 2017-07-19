@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*面包屑导航 start*/
+.webLogo {
+    width: 1000px;
+    height: 68px;
+    margin: 0 auto;
+    border-bottom: 2px solid #dd85b3;
+    background: url("../images/category/position.png") no-repeat left center;
+    font-size: 14px;
+    line-height: 68px;
+    text-indent: 20px;
+}
+.webLogo a{
+    color: #666666;
+}
+.webLogo a:hover{
+    color:#dd85b3;
+    text-decoration: underline;
+}
+/*面包屑导航 end*/
+
+/*内页第一部分 start*/
+.webBody{
+    background: #f4f4f4;
+}
+#webCon {
+    width: 1000px;
+    margin: 0 auto;
+    background: url("../images/category/webbg1.png") no-repeat,url("../images/category/webbg2.png") no-repeat right top white;
+}

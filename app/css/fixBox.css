@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/*底部横幅广告 start*/
+#fixedBox {
+    width: 100%;
+    height: 50px;
+    background: #e10076;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+}
+#fixedBox #fixedBox-Con {
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+}
+#fixedBox #fixedBox-Con ul li {
+    float: left;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+#fixedBox #fixedBox-Con ul li:first-child {
+    width: 300px;
+    background: url("../images/fixedLine.jpg") no-repeat right center;
+}
+#fixedBox #fixedBox-Con ul li:first-child span{
+    font-weight: bold;
+}
+#fixedBox #fixedBox-Con ul li.li-02{
+    background: url("../images/fixedLine.jpg") no-repeat right center;
+}
+#fixedBox #fixedBox-Con ul li.li-02 a {
+    color: white;
+    font-size: 14px;
+    background: #cc6633;
+    padding: 2px;
+    border:1px solid #999999;
+}
+#fixedBox #fixedBox-Con ul li.li-03{
+    background: url("../images/news.png") no-repeat 160px 5px;
+}
+#fixedBox #fixedBox-Con ul li.li-03 a{
+    color: white;
+}
+#fixedBox #fixedBox-Con ul li.li-04 {
+    padding: 8px 0 0 90px;
+    position: relative;
+}
+#fixedBox #fixedBox-Con ul li.li-04 a{
+    float: left;
+    cursor: pointer;
+}
+#fixedBox #fixedBox-Con ul li.li-04 img.erm {
+    position: absolute;
+    left: 60px;
+    top: -90px;
+    display: none;
+}
+/*底部横幅广告 end*/
+
+/*在线客服QQ start*/
+#kf {
+    width: 143px;
+    height: 440px;
+    background: url("../images/kf.jpg");
+    position: absolute;
+    top: 100px;
+    right: 0;
+    z-index: 999;
+    padding-top: 70px;
+}
+#kf ul li {
+    height: 20px;
+    line-height: 22px;
+    margin-top: 8px;
+    font-size: 12px;
+    text-align: center;
+}
+#kf ul li a{
+    color:white;
+}
+#kf p{
+    padding: 50px 0 0 15px;
+}
+#kf .kfWx{
+    width: 98px;
+    height: 98px;
+    margin: 90px auto 0;
+}
+/*在线客服QQ end*/

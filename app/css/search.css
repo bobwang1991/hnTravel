@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@import "reset.min.css";
+@import "header.css";
+@import "footerCopy.css";
+@import "fixBox.css";
+@import "insidePagePublic.css";
+/*搜索结果样式 start*/
+#webSearch {
+    width: 950px;
+    margin: 0 auto;
+}
+#webSearch dl {
+    border-bottom: 1px dashed #dddddd;
+    padding: 20px 0 30px;
+}
+#webSearch dl dt {
+    float: left;
+    width: 270px;
+    height: 270px;
+    border: 1px solid #dddddd;
+    padding: 5px;
+}
+#webSearch dl dd {
+    float: right;
+    width: 650px;
+    font-size: 14px;
+    line-height: 25px;
+}
+#webSearch dl dd.title {
+    line-height: 35px;
+    font-size: 18px;
+}
+#webSearch dl dd.title a {
+    color:#e10076;
+}
+#webSearch dl dd.info {
+    color: #666666;
+    padding: 10px 0;
+}
+#webSearch dl dd font {
+    font-size: 24px;
+    color:#e10076;
+}
+#webSearch dl dd span {
+    color: #666666;
+}
+#webSearch dl dd.more {
+    text-align: right;
+}
+#webSearch dl dd.more a {
+    display: inline-block;
+    width: 150px;
+    background: #e10076;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+}
+/*搜索结果样式 end*/

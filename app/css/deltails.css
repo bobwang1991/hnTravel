@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import "reset.min.css";
+@import "header.css";
+@import "footerCopy.css";
+@import "fixBox.css";
+@import "insidePagePublic.css";
+/*内页主体样式 start*/
+/*风景详细页 --> 第一部分样式 start*/
+#deltailPart1 {
+    width: 950px;
+    margin: 15px auto 25px;
+}
+#deltailPart1 .deltailPart1L {
+    width: 420px;
+}
+#deltailPart1 .deltailPart1L .deltalImg {
+    width: 420px;
+    height: 420px;
+    background: olive;
+    overflow: hidden;
+}
+#deltailPart1 .deltailPart1L .detailBut {
+    padding: 10px 0;
+}
+#deltailPart1 .deltailPart1L .detailBut img{
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+    border:2px solid transparent;
+}
+#deltailPart1 .deltailPart1L .detailBut img.hover{
+    border:2px solid red;
+}
+#deltailPart1 .deltailPart1R {
+    width: 480px;
+    height: 490px;
+}
+#deltailPart1 .deltailPart1R h1 {
+    font-size: 22px;
+    color: #e10076;
+    line-height: 45px;
+}
+#deltailPart1 .deltailPart1R p.info {
+    font-size: 14px;
+    line-height: 25px;
+}
+#deltailPart1 .deltailPart1R p.bor {
+    border-bottom: 1px dashed #666666;
+    padding: 0 0 10px;
+}
+#deltailPart1 .deltailPart1R p.info span {
+    color:#e10076;
+}
+#deltailPart1 .deltailPart1R p.common {
+    line-height: 30px;
+    font-size: 14px;
+}
+#deltailPart1 .deltailPart1R p.paddTop {
+    padding-top: 10px;
+}
+#deltailPart1 .deltailPart1R p.common font{
+    font-weight: bold;
+}
+#deltailPart1 .deltailPart1R p.common span {
+    color:#e10076;
+    font-size: 30px;
+}
+#deltailPart1 .deltailPart1R p.common img{
+    margin-right: 3px;
+}
+#deltailPart1 .deltailPart1R p.common span.priceType {
+    width: 48px;
+    height: 29px;
+    font-size: 14px;
+    color: #666;
+    display: inline-block;
+    text-align: center;
+    line-height: 29px;
+    background: url("../images/details/xlxqctxsbg.png") no-repeat;
+}
+#deltailPart1 .deltailPart1R p.btn {
+    padding-top: 25px;
+}
+#deltailPart1 .deltailPart1R p.btn img {
+    float: left;
+    margin-right: 10px;
+}
+/*风景详细页 --> 第一部分样式 end*/
+
+/*内容详细 start*/
+/*内容详细头部 start*/
+#deltailCon {
+    width: 950px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+#deltailCon ul.deltailMenu {
+    border-bottom: 2px solid red;
+}
+#deltailCon ul.deltailMenu li {
+    width: 85px;
+    height: 35px;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+}
+#deltailCon ul.deltailMenu li a {
+    display: block;
+    color:black;
+    background: #FF99CC;
+    border-radius: 5px 5px 0 0;
+}
+#deltailCon ul.deltailMenu li a.hover,
+#deltailCon ul.deltailMenu li a:hover{
+    color:white;
+    background: #e10076;
+}
+/*内容详细头部 end*/
+/*内容详细内容 start*/
+#deltailCon .deltailCommon{
+    border: 1px solid #e10076;
+    margin-top: 30px;
+}
+#deltailCon .deltailCommon h2.deltailTitle {
+    font-size: 14px;
+    color: #ffffff;
+    background: #e10076;
+    line-height: 30px;
+    text-indent: 10px;
+}
+#deltailCon .deltailCommon .deltailCommonCon {
+    padding: 20px;
+}
+/*内容详细内容 end*/
+/*内容详细 end*/
+/*内页主体样式 end*/

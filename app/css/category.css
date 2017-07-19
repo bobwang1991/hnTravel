@@ -1,0 +1,255 @@
+@charset "UTF-8";
+@import "reset.min.css";
+@import "header.css";
+@import "footerCopy.css";
+@import "fixBox.css";
+@import "insidePagePublic.css";
+/*内页主体样式 start*/
+#webMenu {
+    width: 940px;
+    margin: 30px auto 15px;
+}
+#webMenu dl{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+#webMenu dl dt{
+    float: left;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    background: #ededed;
+    font-weight: bold;
+}
+#webMenu dl dt a {
+    display: block;
+    cursor: pointer;/*鼠标形状*/
+}
+#webMenu dl dd {
+    float: right;
+    width: 748px;
+    height: 30px;
+    padding-left: 10px;
+    background: #f4f4f4;
+    font-size: 12px;
+}
+#webMenu dl dd a {
+    color: black;
+    float: left;
+    padding: 0 10px;
+}
+#webMenu dl dt a:hover{
+    background: #e10076;
+    color:white;
+}
+#webMenu dl dd a:hover {
+    color: #e10076;
+}
+/*内页内容区 end*/
+
+/*内页第一部分 start*/
+#webPart1{
+    width: 940px;
+    margin: 0 auto 20px;
+}
+img.webbg3{
+    display: block;
+    margin: 0 auto;
+}
+/*左边轮播样式*/
+#webPart1L {
+    width: 361px;
+    height: 270px;
+    position: relative;
+    overflow: hidden;
+}
+/*图片列表*/
+#webPart1L .webAdvCon {
+    width: 361px;
+    height: 270px;
+}
+#webPart1L .webAdvCon img {
+    position: absolute;
+    top:0;
+    left:0;
+}
+/*按钮*/
+#webPart1L ul.webAdvBtn {
+    width: 105px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 6;
+}
+#webPart1L ul.webAdvBtn li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid white;
+    margin: 0 2px;
+    background: rgba(255, 255, 255, .5);
+    text-align: center;
+    cursor: pointer;
+}
+#webPart1L ul.webAdvBtn li.hover{
+    background: #f66e08;
+    border:1px solid #e63003;
+    color:white;
+}
+/*文字样式*/
+#webPart1L dl.test {
+    width: 361px;
+    height: 38px;
+    background: rgba(0, 0, 0, .5);
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+}
+#webPart1L dl.test dd {
+    height: 38px;
+    line-height: 38px;
+    color: #ffffff;
+    text-indent: 10px;
+}
+/*右边轮播样式*/
+#webPart2R {
+    width: 568px;
+    height: 270px;
+    background: #f9f9f9;
+    border:1px dashed #e10076;
+    position: relative;
+}
+#webPart2R img.btn{
+    position: absolute;
+    top:50%;
+    margin-top: -35.5px;
+    cursor: pointer;
+}
+#webPart2R img.prev{
+    left:0;
+}
+#webPart2R img.next{
+    right:0;
+}
+#webPart2R #webPart2-Scroll {
+    width: 504px;
+    height: 210px;
+    margin: 40px auto 0;
+    overflow: hidden;
+    position: relative;
+}
+#webPart2R #webPart2-Scroll .webPart2-ScrollCon{
+    width: 1000%;
+    height: 210px;
+    position: absolute;
+    left: 0;
+}
+#webPart2R #webPart2-Scroll .webPart2-ScrollCon dl{
+    width: 150px;
+    height: 210px;
+    float: left;
+    margin: 0 9px;
+}
+#webPart2R #webPart2-Scroll .webPart2-ScrollCon dl dt{
+    width: 150px;
+    height: 150px;
+}
+#webPart2R #webPart2-Scroll .webPart2-ScrollCon dl dd {
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: center;
+}
+#webPart2R #webPart2-Scroll .webPart2-ScrollCon dl dd a{
+    color: #000000;
+}
+#webPart2R #webPart2-Scroll .webPart2-ScrollCon dl dd span{
+    color:#e10076;
+    font-weight: bold;
+}
+#webPart2R #webPart2-Scroll .webPart2-ScrollCon dl dd a:hover{
+    color:#e10076;
+}
+/*内页第一部分 end*/
+
+/*内页第二部分 start*/
+.webProduct {
+    width: 950px;
+    height: 500px;
+    margin: 0 auto 20px;
+}
+.webProduct p.productTitle {
+    height: 49px;
+    background: url("../images/category/web_ht.jpg") no-repeat;
+    line-height: 49px;
+    padding-right: 10px;
+    text-align: right;
+}
+.webProduct p.productTitle a{
+    color: #666666;
+    font-size: 12px;
+    margin: 0 5px;
+}
+.webProduct p.productTitle span{
+    font-weight: bold;
+    line-height: 49px;
+    font-size: 20px;
+    float: left;
+}
+.webProduct p.productTitle span font{
+    display: inline-block;
+    width: 41px;
+    height: 49px;
+    text-align: center;
+    padding-right: 10px;
+    font-size: 22px;
+    color:white;
+}
+.webProduct p.productTitle a:hover{
+    color:#e10076;
+}
+.webProduct dl {
+    float: left;
+    width: 280px;
+    height: 370px;
+    border:5px solid #e10076;
+    border-left: 1px dashed #e10076;
+    border-right: 1px dashed #e10076;
+    margin: 30px 15px;
+    border-radius: 10px;
+}
+.webProduct dl dt {
+    text-align: center;
+    padding-top: 5px;
+}
+.webProduct dl dd.title {
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+.webProduct dl dd.title a{
+    color: #000000;
+}
+.webProduct dl dd.title a:hover{
+    color: #e10076;
+}
+.webProduct dl dd.price {
+    width: 137px;
+    height: 38px;
+    background: #e10076;
+    margin: 0 auto;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 10px;
+    color:white;
+}
+/*内页第二部分 end*/
+/*内页主体样式 end*/
